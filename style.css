@@ -101,6 +101,9 @@ ol,ul{margin:1em 0}ol,ul{padding:0 0 0 40px}nav ul,nav ol{list-style:none;list-s
 	border-width: 1px 1px 1px 1px;
 	border-radius: 3px;
 	box-shadow: 0 3px 8px 0 rgba(0,0,0,.1);
+	border-width: 1px 1px 2px;
+	border-color: #d8d8d8;
+	border-style: solid;
 }
 .widget {
 	background-color: #ffffff;
@@ -136,7 +139,8 @@ ol,ul{margin:1em 0}ol,ul{padding:0 0 0 40px}nav ul,nav ol{list-style:none;list-s
 	display: block;
 }
 .entry-content, .entry-summary, .widget {
-	font-size:1em;
+	font-size:1.1em;
+	line-height:1.4;
 }
 .entry-meta{
 	font-size: 1em;
