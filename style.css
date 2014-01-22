@@ -24,7 +24,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 */
 
 .pure-skin-wpitalyplus .pure-form input.pure-button-small {
-    font-size: .86em;
+    font-size: 1em;
 }
 h1, h2, h3, h4, h5, h6 {
     -ms-word-wrap: break-word;
@@ -88,7 +88,7 @@ table{border-collapse:collapse;border-spacing:0;empty-cells:show;border:1px soli
 ol,ul{margin:1em 0}ol,ul{padding:0 0 0 40px}nav ul,nav ol{list-style:none;list-style-image:none}
 /* END OF UL OL*/
 .site-content {
-	margin-top: 3em;
+	margin-top: 5em;
 	font-weight: 300;
 }
 .postcard-container {
@@ -473,7 +473,7 @@ a.read-more {
 	width:32px;
     height:42px;
     margin-left: 14px;
-    margin-top: 8px;
+    margin-top: 10px;
     }
 .nav-previous, .nav-next {
 	background-color: #427fed;
@@ -492,6 +492,7 @@ a.read-more {
 	}
 .nav-previous a, .nav-next a {
 	color: #fff;
+	font-weight:500;
 	}
 .nav-previous:hover, .nav-next:hover {
 	background-image: -moz-linear-gradient(top,rgba(0,0,0,0.05) 0,rgba(0,0,0,0.05));
@@ -560,15 +561,18 @@ a.read-more {
 .menu-container {
     width: 100%;
     position: fixed;
-    top: 0;
+    top: -2;
     left: 0;
     background-color: white;
     border-bottom: solid 1px #ccc;
     display: inline-block;
     z-index: 2;
+	height:44px;
+	box-shadow:0px 2px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .menu-image  {
     display:inline-block;
+	top:6px;
 }
 .menu-header {
     margin-left: 1em;
@@ -602,14 +606,20 @@ a.read-more {
 	position: relative;
     padding-left: 1em;
     padding-right: 1em;
-    line-height: 2.1em;
+    line-height: 3.9em;
+	height:44px;
+	border-bottom:1px solid transparent;
+}
+.main-navigation li.current_page_item {
+	font-weight:700;
+	border-bottom: 2px solid #427FED;
 }
 .main-navigation a {
 	display: block;
 	text-decoration: none;
     color: #666;
     font-weight: 300;
-    font-size: .9em;
+    font-size: 1.3em;
 }
 .main-navigation ul ul {
 	display: none;
@@ -746,7 +756,7 @@ a.read-more {
 	text-align: center;
 }
 .widget_search input[type="search"] {
-    width: 50%;
+    width: 48%;
 }
 /************** Widget Image ********************/
 .widget_image {
