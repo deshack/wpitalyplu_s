@@ -23,7 +23,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
  TGM Plugin Activation class provided by Thomas Griffin https://github.com/thomasgriffin/TGM-Plugin-Activation
 */
 
--------------------------------------------------------------- */
 .pure-skin-wpitalyplus .pure-form input.pure-button-small {
     font-size: .86em;
 }
@@ -451,7 +450,7 @@ a.read-more {
     height:80px;
     position:fixed;
     top:110px;
-    left:15px;
+    left:10px;
     display:none;
     text-align: center;
     line-height: 95%;
